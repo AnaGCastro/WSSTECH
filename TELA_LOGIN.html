@@ -1,0 +1,37 @@
+<DOCTYPE html>
+    <html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <title> Tela de Login </title>
+        <link rel="stylesheet" type="text/css" href="login.css" />
+    </head>
+
+    <body>
+        <h1> wsstech </h1>
+        <br>
+        <div class="caixaLogin">
+            <div class="img-user">
+                <img src="./imagens/undraw_profile_pic_ic5t (3).svg">
+            </div>
+            <h2>Login</h2>
+            <div class="campo">
+                <input type="text" required id="logar_email">
+                <label> E-mail: </label>
+            </div>
+            <div class="campo">
+                <input type="password" required id="logar_senha">
+                <label> Senha: </label>
+            </div>
+            <br>
+            <input type="checkbox" checked="checked" class="checkbox">
+            <label class="checkbox2">Lembrar-Me</label><br><br>
+            <br>
+            <button onClick="logar()">Entrar</button>
+            <br><br>
+            <a href="cadastro.html"> <button>Fazer Cadastro</button></a>
+        </div>
+        <script src="./js/api.js"></script>
+    </body>
+
+    </html>
